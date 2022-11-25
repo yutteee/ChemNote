@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3466A322930D342003844A0 /* ChemNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A312930D342003844A0 /* ChemNoteApp.swift */; };
+		D3466A342930D342003844A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A332930D342003844A0 /* ContentView.swift */; };
+		D3466A362930D343003844A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3466A352930D343003844A0 /* Assets.xcassets */; };
+		D3466A392930D343003844A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3466A382930D343003844A0 /* Preview Assets.xcassets */; };
+		D3466A432930D344003844A0 /* ChemNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A422930D344003844A0 /* ChemNoteTests.swift */; };
+		D3466A4D2930D344003844A0 /* ChemNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A4C2930D344003844A0 /* ChemNoteUITests.swift */; };
+		D3466A4F2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A4E2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3466A3F2930D344003844A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3466A262930D342003844A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3466A2D2930D342003844A0;
+			remoteInfo = ChemNote;
+		};
+		D3466A492930D344003844A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3466A262930D342003844A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3466A2D2930D342003844A0;
+			remoteInfo = ChemNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3466A2E2930D342003844A0 /* ChemNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3466A312930D342003844A0 /* ChemNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemNoteApp.swift; sourceTree = "<group>"; };
+		D3466A332930D342003844A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3466A352930D343003844A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3466A382930D343003844A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3466A3E2930D344003844A0 /* ChemNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3466A422930D344003844A0 /* ChemNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemNoteTests.swift; sourceTree = "<group>"; };
+		D3466A482930D344003844A0 /* ChemNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3466A4C2930D344003844A0 /* ChemNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemNoteUITests.swift; sourceTree = "<group>"; };
+		D3466A4E2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3466A2B2930D342003844A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3466A3B2930D344003844A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3466A452930D344003844A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3466A252930D342003844A0 = {
+			isa = PBXGroup;
+			children = (
+				D3466A302930D342003844A0 /* ChemNote */,
+				D3466A412930D344003844A0 /* ChemNoteTests */,
+				D3466A4B2930D344003844A0 /* ChemNoteUITests */,
+				D3466A2F2930D342003844A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3466A2F2930D342003844A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3466A2E2930D342003844A0 /* ChemNote.app */,
+				D3466A3E2930D344003844A0 /* ChemNoteTests.xctest */,
+				D3466A482930D344003844A0 /* ChemNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3466A302930D342003844A0 /* ChemNote */ = {
+			isa = PBXGroup;
+			children = (
+				D3466A312930D342003844A0 /* ChemNoteApp.swift */,
+				D3466A332930D342003844A0 /* ContentView.swift */,
+				D3466A352930D343003844A0 /* Assets.xcassets */,
+				D3466A372930D343003844A0 /* Preview Content */,
+			);
+			path = ChemNote;
+			sourceTree = "<group>";
+		};
+		D3466A372930D343003844A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3466A382930D343003844A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3466A412930D344003844A0 /* ChemNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3466A422930D344003844A0 /* ChemNoteTests.swift */,
+			);
+			path = ChemNoteTests;
+			sourceTree = "<group>";
+		};
+		D3466A4B2930D344003844A0 /* ChemNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3466A4C2930D344003844A0 /* ChemNoteUITests.swift */,
+				D3466A4E2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift */,
+			);
+			path = ChemNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3466A2D2930D342003844A0 /* ChemNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3466A522930D344003844A0 /* Build configuration list for PBXNativeTarget "ChemNote" */;
+			buildPhases = (
+				D3466A2A2930D342003844A0 /* Sources */,
+				D3466A2B2930D342003844A0 /* Frameworks */,
+				D3466A2C2930D342003844A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemNote;
+			productName = ChemNote;
+			productReference = D3466A2E2930D342003844A0 /* ChemNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3466A3D2930D344003844A0 /* ChemNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3466A552930D344003844A0 /* Build configuration list for PBXNativeTarget "ChemNoteTests" */;
+			buildPhases = (
+				D3466A3A2930D344003844A0 /* Sources */,
+				D3466A3B2930D344003844A0 /* Frameworks */,
+				D3466A3C2930D344003844A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3466A402930D344003844A0 /* PBXTargetDependency */,
+			);
+			name = ChemNoteTests;
+			productName = ChemNoteTests;
+			productReference = D3466A3E2930D344003844A0 /* ChemNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3466A472930D344003844A0 /* ChemNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3466A582930D344003844A0 /* Build configuration list for PBXNativeTarget "ChemNoteUITests" */;
+			buildPhases = (
+				D3466A442930D344003844A0 /* Sources */,
+				D3466A452930D344003844A0 /* Frameworks */,
+				D3466A462930D344003844A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3466A4A2930D344003844A0 /* PBXTargetDependency */,
+			);
+			name = ChemNoteUITests;
+			productName = ChemNoteUITests;
+			productReference = D3466A482930D344003844A0 /* ChemNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3466A262930D342003844A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D3466A2D2930D342003844A0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D3466A3D2930D344003844A0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D3466A2D2930D342003844A0;
+					};
+					D3466A472930D344003844A0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D3466A2D2930D342003844A0;
+					};
+				};
+			};
+			buildConfigurationList = D3466A292930D342003844A0 /* Build configuration list for PBXProject "ChemNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3466A252930D342003844A0;
+			productRefGroup = D3466A2F2930D342003844A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3466A2D2930D342003844A0 /* ChemNote */,
+				D3466A3D2930D344003844A0 /* ChemNoteTests */,
+				D3466A472930D344003844A0 /* ChemNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3466A2C2930D342003844A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3466A392930D343003844A0 /* Preview Assets.xcassets in Resources */,
+				D3466A362930D343003844A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3466A3C2930D344003844A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3466A462930D344003844A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3466A2A2930D342003844A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3466A342930D342003844A0 /* ContentView.swift in Sources */,
+				D3466A322930D342003844A0 /* ChemNoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3466A3A2930D344003844A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3466A432930D344003844A0 /* ChemNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3466A442930D344003844A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3466A4F2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift in Sources */,
+				D3466A4D2930D344003844A0 /* ChemNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3466A402930D344003844A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3466A2D2930D342003844A0 /* ChemNote */;
+			targetProxy = D3466A3F2930D344003844A0 /* PBXContainerItemProxy */;
+		};
+		D3466A4A2930D344003844A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3466A2D2930D342003844A0 /* ChemNote */;
+			targetProxy = D3466A492930D344003844A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3466A502930D344003844A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3466A512930D344003844A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3466A532930D344003844A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChemNote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemNote.ChemNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3466A542930D344003844A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChemNote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemNote.ChemNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3466A562930D344003844A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemNote.ChemNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChemNote";
+			};
+			name = Debug;
+		};
+		D3466A572930D344003844A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemNote.ChemNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChemNote";
+			};
+			name = Release;
+		};
+		D3466A592930D344003844A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemNote.ChemNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChemNote;
+			};
+			name = Debug;
+		};
+		D3466A5A2930D344003844A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemNote.ChemNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChemNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3466A292930D342003844A0 /* Build configuration list for PBXProject "ChemNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3466A502930D344003844A0 /* Debug */,
+				D3466A512930D344003844A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3466A522930D344003844A0 /* Build configuration list for PBXNativeTarget "ChemNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3466A532930D344003844A0 /* Debug */,
+				D3466A542930D344003844A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3466A552930D344003844A0 /* Build configuration list for PBXNativeTarget "ChemNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3466A562930D344003844A0 /* Debug */,
+				D3466A572930D344003844A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3466A582930D344003844A0 /* Build configuration list for PBXNativeTarget "ChemNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3466A592930D344003844A0 /* Debug */,
+				D3466A5A2930D344003844A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3466A262930D342003844A0 /* Project object */;
+}
