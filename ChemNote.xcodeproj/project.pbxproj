@@ -14,7 +14,8 @@
 		D3466A432930D344003844A0 /* ChemNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A422930D344003844A0 /* ChemNoteTests.swift */; };
 		D3466A4D2930D344003844A0 /* ChemNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A4C2930D344003844A0 /* ChemNoteUITests.swift */; };
 		D3466A4F2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A4E2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift */; };
-		D3C8E8702944B83E0064FC0A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8E86F2944B83E0064FC0A /* Note.swift */; };
+		D3C8E8722944EEF00064FC0A /* NoteLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8E8712944EEF00064FC0A /* NoteLists.swift */; };
+		D3C8E8752944EF380064FC0A /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8E8742944EF380064FC0A /* NoteList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,8 @@
 		D3466A482930D344003844A0 /* ChemNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3466A4C2930D344003844A0 /* ChemNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemNoteUITests.swift; sourceTree = "<group>"; };
 		D3466A4E2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D3C8E86F2944B83E0064FC0A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		D3C8E8712944EEF00064FC0A /* NoteLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteLists.swift; sourceTree = "<group>"; };
+		D3C8E8742944EF380064FC0A /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				D3466A312930D342003844A0 /* ChemNoteApp.swift */,
 				D3C8E86E2944B81A0064FC0A /* Pages */,
 				D3466A332930D342003844A0 /* ContentView.swift */,
+				D3C8E8732944EF060064FC0A /* parts */,
 				D3466A352930D343003844A0 /* Assets.xcassets */,
 				D3466A372930D343003844A0 /* Preview Content */,
 			);
@@ -133,9 +136,17 @@
 		D3C8E86E2944B81A0064FC0A /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				D3C8E86F2944B83E0064FC0A /* Note.swift */,
+				D3C8E8712944EEF00064FC0A /* NoteLists.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		D3C8E8732944EF060064FC0A /* parts */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8E8742944EF380064FC0A /* NoteList.swift */,
+			);
+			path = parts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3466A342930D342003844A0 /* ContentView.swift in Sources */,
+				D3C8E8722944EEF00064FC0A /* NoteLists.swift in Sources */,
 				D3466A322930D342003844A0 /* ChemNoteApp.swift in Sources */,
-				D3C8E8702944B83E0064FC0A /* Note.swift in Sources */,
+				D3C8E8752944EF380064FC0A /* NoteList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
