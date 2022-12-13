@@ -55,7 +55,12 @@ struct MyViewControllerRepresentable : UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> MyViewController {
         return MyViewController()
     }
+    // SwiftUI -> UIKit
     func updateUIViewController(_ uiViewController: MyViewController, context: Context) {
+    }
+    // UIKit -> SwiftUI
+    func makeCoordinator() -> Coordinator {
+        Coordinator()
     }
 }
 
