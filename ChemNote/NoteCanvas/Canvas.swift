@@ -9,26 +9,45 @@ import PencilKit
 import UIKit
 import SwiftUI
 
-class MyViewController: UIViewController {
+class MyViewController: UIViewController, PKCanvasViewDelegate {
+    private let canvasView: PKCanvasView = {
+        let canvas = PKCanvasView()
+        canvas.drawingPolicy = .anyInput
+        return canvas
+    }()
+    
+    // 書いた内容を保存するためのもの
+    let drawing = PKDrawing()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        canvasView.drawing = drawing
+        canvasView.delegate = self
         addMyLabel()
     }
     
-    lazy var myLabel: UILabel = {
-        let label:UILabel = UILabel()
-        label.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
-        label.text = "Open MyViewController"
-        label.textColor = .black
-        return label
-    }()
+    // ノートの書く場所を追加
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        canvasView.frame = view.bounds
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // ペンツールの設定
+        let toolPicker = PKToolPicker()
+        toolPicker.setVisible(true, forFirstResponder: canvasView)
+        toolPicker.addObserver(canvasView)
+        canvasView.becomeFirstResponder()
+    }
     
     private func addMyLabel() {
         // autoLayautをfalseにすることで反映させることができる
-        myLabel.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addSubview(myLabel)
-        myLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        myLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        canvasView.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(canvasView)
+        canvasView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        canvasView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
 }
 
