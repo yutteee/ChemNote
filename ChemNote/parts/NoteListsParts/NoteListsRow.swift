@@ -8,19 +8,21 @@
 import SwiftUI
 
 struct NoteListsRow: View {
+    let note : Note
+    
     var body: some View {
         VStack{
             Image(systemName: "doc.plaintext.fill")
                 .padding(10)
                 .font(.system(size: 120, weight: .ultraLight))
-                .foregroundColor(.yellow)
-            Text("有機化学3")
+                .foregroundColor(note.color)
+            Text(note.name)
         }
     }
 }
 
 struct NoteListsRow_Previews: PreviewProvider {
     static var previews: some View {
-        NoteListsRow()
+        NoteListsRow(note: .mock1)
     }
 }

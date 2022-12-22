@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct NoteList: View {
+    private let mockNotes:[Note] = [.mock1, .mock2, .mock3]
+    
     var body: some View {
         VStack {
             Text("最近使ったノート")
@@ -16,9 +18,10 @@ struct NoteList: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.top, 40)
                 .padding(.leading, 60)
-            HStack{
-                NoteListsRow()
-                NoteListsRow()
+            List(mockNotes){ note in
+                HStack {
+                    NoteListsRow(note: note)
+                }
             }
         }
     }
