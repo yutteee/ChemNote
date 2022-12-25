@@ -12,6 +12,7 @@ import SwiftUI
 class MyViewController: UIViewController, PKCanvasViewDelegate {
     private let canvasView: PKCanvasView = {
         let canvas = PKCanvasView()
+        // 最終的にはapple pencilに変える
         canvas.drawingPolicy = .anyInput
         return canvas
     }()
@@ -32,11 +33,10 @@ class MyViewController: UIViewController, PKCanvasViewDelegate {
         canvasView.frame = view.bounds
     }
     
+    let toolPicker = PKToolPicker()
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
         // ペンツールの設定
-        let toolPicker = PKToolPicker()
         toolPicker.setVisible(true, forFirstResponder: canvasView)
         toolPicker.addObserver(canvasView)
         canvasView.becomeFirstResponder()
@@ -50,6 +50,7 @@ class MyViewController: UIViewController, PKCanvasViewDelegate {
         canvasView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
 }
+
 
 struct MyViewControllerRepresentable : UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> MyViewController {
