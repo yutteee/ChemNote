@@ -14,7 +14,16 @@
 		D3466A432930D344003844A0 /* ChemNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A422930D344003844A0 /* ChemNoteTests.swift */; };
 		D3466A4D2930D344003844A0 /* ChemNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A4C2930D344003844A0 /* ChemNoteUITests.swift */; };
 		D3466A4F2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466A4E2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift */; };
-		D3C8E8702944B83E0064FC0A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8E86F2944B83E0064FC0A /* Note.swift */; };
+		D346C12429655FAD0091F6AA /* FolderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346C12329655FAD0091F6AA /* FolderModel.swift */; };
+		D346C126296575380091F6AA /* Folder+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346C125296575380091F6AA /* Folder+mock.swift */; };
+		D39EDA9B295433A60031BF58 /* Note+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EDA9A295433A60031BF58 /* Note+mock.swift */; };
+		D3ACD6AA29475AF00022863A /* NoteListsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACD6A929475AF00022863A /* NoteListsHeader.swift */; };
+		D3ACD6AC29475B840022863A /* NoteListsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACD6AB29475B840022863A /* NoteListsRow.swift */; };
+		D3ACD6AF29477E2A0022863A /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACD6AE29477E2A0022863A /* NoteList.swift */; };
+		D3ACD6B2294783D50022863A /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACD6B1294783D50022863A /* NoteModel.swift */; };
+		D3ACD6B9294786130022863A /* NoteData.json in Resources */ = {isa = PBXBuildFile; fileRef = D3ACD6B8294786130022863A /* NoteData.json */; };
+		D3ACD6BE294893AE0022863A /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACD6BD294893AE0022863A /* Canvas.swift */; };
+		D3C8E8722944EEF00064FC0A /* NoteLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8E8712944EEF00064FC0A /* NoteLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +54,16 @@
 		D3466A482930D344003844A0 /* ChemNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3466A4C2930D344003844A0 /* ChemNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemNoteUITests.swift; sourceTree = "<group>"; };
 		D3466A4E2930D344003844A0 /* ChemNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D3C8E86F2944B83E0064FC0A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		D346C12329655FAD0091F6AA /* FolderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderModel.swift; sourceTree = "<group>"; };
+		D346C125296575380091F6AA /* Folder+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+mock.swift"; sourceTree = "<group>"; };
+		D39EDA9A295433A60031BF58 /* Note+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+mock.swift"; sourceTree = "<group>"; };
+		D3ACD6A929475AF00022863A /* NoteListsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListsHeader.swift; sourceTree = "<group>"; };
+		D3ACD6AB29475B840022863A /* NoteListsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListsRow.swift; sourceTree = "<group>"; };
+		D3ACD6AE29477E2A0022863A /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
+		D3ACD6B1294783D50022863A /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		D3ACD6B8294786130022863A /* NoteData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NoteData.json; sourceTree = "<group>"; };
+		D3ACD6BD294893AE0022863A /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		D3C8E8712944EEF00064FC0A /* NoteLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,13 @@
 			isa = PBXGroup;
 			children = (
 				D3466A312930D342003844A0 /* ChemNoteApp.swift */,
+				D3ACD6BA294893410022863A /* NoteCanvas */,
+				D3ACD6B8294786130022863A /* NoteData.json */,
+				D3ACD6B02947822B0022863A /* Model */,
 				D3C8E86E2944B81A0064FC0A /* Pages */,
 				D3466A332930D342003844A0 /* ContentView.swift */,
+				D3ACD6AD29477DFD0022863A /* templates */,
+				D3C8E8732944EF060064FC0A /* parts */,
 				D3466A352930D343003844A0 /* Assets.xcassets */,
 				D3466A372930D343003844A0 /* Preview Content */,
 			);
@@ -109,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				D3466A382930D343003844A0 /* Preview Assets.xcassets */,
+				D39EDA9A295433A60031BF58 /* Note+mock.swift */,
+				D346C125296575380091F6AA /* Folder+mock.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -130,12 +155,54 @@
 			path = ChemNoteUITests;
 			sourceTree = "<group>";
 		};
+		D3ACD6A829475AC40022863A /* NoteListsParts */ = {
+			isa = PBXGroup;
+			children = (
+				D3ACD6A929475AF00022863A /* NoteListsHeader.swift */,
+				D3ACD6AB29475B840022863A /* NoteListsRow.swift */,
+			);
+			path = NoteListsParts;
+			sourceTree = "<group>";
+		};
+		D3ACD6AD29477DFD0022863A /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				D3ACD6AE29477E2A0022863A /* NoteList.swift */,
+			);
+			path = templates;
+			sourceTree = "<group>";
+		};
+		D3ACD6B02947822B0022863A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3ACD6B1294783D50022863A /* NoteModel.swift */,
+				D346C12329655FAD0091F6AA /* FolderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3ACD6BA294893410022863A /* NoteCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				D3ACD6BD294893AE0022863A /* Canvas.swift */,
+			);
+			path = NoteCanvas;
+			sourceTree = "<group>";
+		};
 		D3C8E86E2944B81A0064FC0A /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				D3C8E86F2944B83E0064FC0A /* Note.swift */,
+				D3C8E8712944EEF00064FC0A /* NoteLists.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		D3C8E8732944EF060064FC0A /* parts */ = {
+			isa = PBXGroup;
+			children = (
+				D3ACD6A829475AC40022863A /* NoteListsParts */,
+			);
+			path = parts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +311,7 @@
 			files = (
 				D3466A392930D343003844A0 /* Preview Assets.xcassets in Resources */,
 				D3466A362930D343003844A0 /* Assets.xcassets in Resources */,
+				D3ACD6B9294786130022863A /* NoteData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +337,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3466A342930D342003844A0 /* ContentView.swift in Sources */,
+				D3C8E8722944EEF00064FC0A /* NoteLists.swift in Sources */,
+				D3ACD6AC29475B840022863A /* NoteListsRow.swift in Sources */,
+				D346C12429655FAD0091F6AA /* FolderModel.swift in Sources */,
+				D346C126296575380091F6AA /* Folder+mock.swift in Sources */,
+				D3ACD6BE294893AE0022863A /* Canvas.swift in Sources */,
+				D3ACD6B2294783D50022863A /* NoteModel.swift in Sources */,
+				D3ACD6AA29475AF00022863A /* NoteListsHeader.swift in Sources */,
 				D3466A322930D342003844A0 /* ChemNoteApp.swift in Sources */,
-				D3C8E8702944B83E0064FC0A /* Note.swift in Sources */,
+				D3ACD6AF29477E2A0022863A /* NoteList.swift in Sources */,
+				D39EDA9B295433A60031BF58 /* Note+mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +510,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,8 +538,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
