@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct NoteLists: View {
+    let mockFolder: [Folder] = [.folder1, .folder2]
+    
     var body: some View {
-        ScrollView {
-            NoteListsHeader()
-            NoteList()
+        NavigationView {
+            List(mockFolder) { folder in
+                NavigationLink(destination:NoteList(mockNotes: folder.content)){
+                    Text(folder.name)
+                }
+            }
+            .navigationTitle("フォルダ")
+            NoteList(mockNotes: [.mock1, .mock2, .mock3])
         }
+        .padding(0.5)
     }
 }
 
