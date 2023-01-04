@@ -8,21 +8,16 @@
 import SwiftUI
 
 struct NoteList: View {
-    private let mockNotes:[Note] = [.mock1, .mock2, .mock3]
+    let mockNotes:[Note] = [.mock1, .mock2, .mock3]
     
     var body: some View {
-        VStack {
-            Text("最近使ったノート")
-                .font(.system(size: 20, weight: .light))
-                .foregroundColor(.blue)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.top, 40)
-                .padding(.leading, 60)
-            List(mockNotes){ note in
-                HStack {
+        NavigationView {
+            List(mockNotes) { note in
+                NavigationLink(destination:MyViewControllerRepresentable()){
                     NoteListsRow(note: note)
                 }
             }
+            .navigationTitle("最近使ったノート")
         }
     }
 }

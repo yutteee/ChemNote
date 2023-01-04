@@ -14,7 +14,7 @@ struct NoteListsRow: View {
         VStack{
             Image(systemName: "doc.plaintext.fill")
                 .padding(10)
-                .font(.system(size: 120, weight: .ultraLight))
+                .font(.system(size: 80, weight: .ultraLight))
                 .foregroundColor(note.color)
             Text(note.name)
         }
